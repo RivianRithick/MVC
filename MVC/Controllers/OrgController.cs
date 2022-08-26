@@ -8,7 +8,7 @@ namespace MVC.Controllers
     public class OrgController : Controller
     {
         private readonly GoodsContext db;
-        public OrgController(GoodsContext _db)
+        public  OrgController(GoodsContext _db)
         {
             db = _db;
         }
